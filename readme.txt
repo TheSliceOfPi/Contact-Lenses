@@ -1,7 +1,7 @@
 Edith Flores
 Naive Bayes Algorithm
 
-Files Submitted:
+Files:
 naivebayes.py
 evaluate.py
 contact-lenses.arff
@@ -28,4 +28,7 @@ To run (general): python3 naivebayes.py <training set filename> <testing set fil
 The program evaluate.py takes one file, a data file. The program, evaluate.py, takes the data file and splits it into a training and a testing file in order to do N-fold. Each of these training and testing files gets placed through naivebayes.py to determine the predictions. The program, evaluate then creates a file that puts all of the sample predictions and probabilities. Once these probabilities are in place, evaluate.py determines the confusion matrix and overall accuracy. Lastly, evaluate.py determines all the PTR and FPR of each category and places all the threshold, TPR, and FPR for each category in a new file.
 
 To run (general): python3 evaluate.py <data filename>
+
+----------Overall------------
+To run: python3 evaluate.py <data filename>
 
